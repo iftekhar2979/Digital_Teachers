@@ -121,6 +121,9 @@ p.h5.text-muted {
    .btn-outline-primary{
         display: none;
     }
+    section.container.my-5 {
+        display: none;
+    }
     .carousel-caption.d-md-block {
         transform: translateY(-4rem);
     }
