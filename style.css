@@ -22,10 +22,25 @@ body{
 }
 .col-lg-6.d-flex.flex-column.justify-content-center.align-items-center h1 {
     position: relative;
-    left: -15px;
+    /* left: -15px; */
+}
+.register {
+    outline: none;
+    border: none;
+    background: white;
+    color: #289Bde;
+    padding: 0.5rem;
+    letter-spacing: 2px;
+    font-size: 1.25rem;
+    border-radius: 4px;
+    margin: 1rem;
+}
+.register:hover{
+    background-color: #289Bde;
+    color: white;
 }
 
-/* maedia Query  */
+/* media Query  */
 @media (max-width: 576px) { 
 
     .btn-outline-primary{
