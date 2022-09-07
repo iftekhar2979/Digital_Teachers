@@ -1,0 +1,19 @@
+body{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+/* maedia Query  */
+@media (max-width: 576px) { 
+
+    .btn,.btn-outline-primary{
+        display: none;
+    }
+ }
+ @media (max-width: 949px) { 
+    .btn,.btn-outline-primary{
+        display: none;
+    }
+  }
