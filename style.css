@@ -55,6 +55,9 @@ img.img-fluid.rounded.w-20.h-20 {
     color: gray;
     transform: rotateX(138deg);
 }
+.fa-brands{
+    color: #289Bde;
+}
 .register {
     outline: none;
     border: none;
