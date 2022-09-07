@@ -3,7 +3,20 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
-
+.carousel-caption.d-md-block {
+    transform: translateY(-12rem);
+}
+.carousel-caption.d-md-block  h1{
+    font-size: 3rem;
+    color: white;
+}
+.carousel-caption.d-md-block  p{
+    font-size: 1rem;
+    color: white;
+}
+#cover-height{
+    height: 37rem;
+}
 
 /* maedia Query  */
 @media (max-width: 576px) { 
@@ -11,9 +24,30 @@ body{
     .btn,.btn-outline-primary{
         display: none;
     }
+   
  }
- @media (max-width: 949px) { 
+ @media (max-width: 769px) { 
+   
+    .carousel-caption.d-md-block {
+        margin: -3rem;
+    }
+    .carousel-caption.d-md-block  h1{
+        font-size: 1.5rem;
+        color: white;
+        font-weight: 700;
+    }
+    #cover-height{
+        height: 17rem;
+    }
+  }
+ @media (max-width: 993px) { 
     .btn,.btn-outline-primary{
         display: none;
+    }
+    .carousel-caption.d-md-block {
+        transform: translateY(-4rem);
+    }
+    #cover-height{
+        height: 23rem;
     }
   }
