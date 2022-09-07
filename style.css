@@ -21,7 +21,7 @@ body{
 /* maedia Query  */
 @media (max-width: 576px) { 
 
-    .btn,.btn-outline-primary{
+    .btn-outline-primary{
         display: none;
     }
    
@@ -41,7 +41,7 @@ body{
     }
   }
  @media (max-width: 993px) { 
-    .btn,.btn-outline-primary{
+   .btn-outline-primary{
         display: none;
     }
     .carousel-caption.d-md-block {

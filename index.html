@@ -18,11 +18,8 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&display=swap"
       rel="stylesheet"
     />
-
   </head>
   <body>
-
-
     <!-- navbar part -->
     <nav class="container navbar navbar-expand-lg navbar-light">
       <div class="container-fluid">
@@ -64,49 +61,223 @@
       <button class="btn btn-outline-primary" type="submit">Register</button>
     </nav>
 
-<!-- image carousel -->
+    <!-- image carousel -->
 
-<div id="carouselExampleDark" class="container carousel carousel-light slide" data-bs-ride="carousel">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <div
+      id="carouselExampleDark"
+      class="container carousel carousel-light slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <img
+            src="./images/cover/cover-1.png"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-md-block">
+            <h1>Get Started Digital Learning</h1>
+            <p>
+              Here you can find our teacher who will provide you to learn
+              anything what you want.They are well Experienced
+            </p>
+            <button class="btn btn-primary">Get Started</button>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img
+            src="./images/cover/cover-2.jpg"
+            id="cover-height"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-md-block">
+            <h1>Buy Our course's 50% discount .</h1>
+            <p>
+              If anyone book our course within 2 days he/she can buy our every
+              course discount will be 50%
+            </p>
+            <button class="btn btn-primary">Buy Now</button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./images/cover/cover-3.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-md-block">
+            <h1></h1>
+            <p></p>
+            <button class="btn btn-primary">Get Started</button>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleDark"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleDark"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
-    <div class="carousel-inner">
-      <div class="carousel-item active" data-bs-interval="10000">
-        <img src="./images/cover/cover-1.png" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-md-block">
-          <h1>Get Started Digital Learning</h1>
-          <p>Here you can find our teacher who will provide you to learn anything what you want.They are well Experienced</p>
+
+    <!-- main part -->
+
+    <main class="container mt-5">
+      <h1 class="text-center">Discover Our popular courses</h1>
+      <p class="text-center text-muted">
+        You can buy the course what you need to learn from course
+      </p>
+      <div class="row d-flex">
+        <div class="col-lg-6 col-md-12  col-sm-12 my-1">     
+            <div class=" d-flex border border-muted rounded row mx-1 p-0 ">
+              <img
+                src="./images/course/course-1.png"
+                alt=""
+                class="img-fluid col-sm-12 col-lg-5 col-md-5 d-flex p-0 m-0 "
+              />
+              <div class=" col-sm-12 col-lg-6 col-md-6" >
+                <h4 class="h5">Fundamental of UI and UX Design</h4>
+                <p class=" text-muted">
+                  Our teacher maked UI and UX design for you.Claim it
+                </p>
+                <p class="h5 my-3 text-primary"><span class="text-primary">Price :</span>$40</p>
+                <button class="btn btn-primary my-1">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-12 col-md-12 my-1">     
+            <div class=" d-flex border border-muted rounded row mx-1 p-0">
+                <img
+                  src="./images/course/course-2.png"
+                  alt=""
+                  class="img-fluid col-sm-12 col-lg-5 col-md-5 d-flex  p-0 m-0 "
+                />
+                <div class="m-1 col-sm-12 col-lg-6 col-md-6">
+                  <h4 class="h5">Javascript Basic to Advanced</h4>
+                  <p class=" text-muted">
+                 This course will guide you for most popular Javascript Programming language.
+                  </p>
+                  <p class="h5 my-3 text-primary"><span class="text-primary">Price :</span>$60</p>
+                  <button class="btn btn-primary">Add to Cart</button>
+                </div>
+              </div>
+          </div>
+          <div class="col-lg-6 col-md-12 col-sm-12 my-1">     
+            <div class=" d-flex border border-muted rounded row mx-1">
+                <img
+                  src="./images/course/course-3.png"
+                  alt=""
+                  class="img-fluid col-sm-12 col-lg-5 col-md-5 d-flex  p-0 m-0 "
+                />
+                <div class="m-2 col-sm-12 col-lg-6 col-md-6">
+                  <h4 class="h5">Javascript Basic to Advanced</h4>
+                  <p class=" text-muted">
+                 It will make you a full Stack web application Developer.
+                  </p>
+                  <p class="h5 my-3 text-primary"><span class="text-primary">Price :</span>$75</p>
+                  <button class="btn btn-primary">Add to Cart</button>
+                </div>
+              </div>
+          </div>
+          <div class="col-lg-6 col-md-12 col-sm-12 my-1">     
+            <div class=" d-flex border border-muted rounded row mx-1">
+                <img
+                  src="./images/course/course-4.png"
+                  alt=""
+                  class=" img-fluid col-sm-12 col-lg-5 col-md-5 d-flex  p-0 m-0 "
+                />
+                <div class="m-2 col-sm-12 col-lg-6 col-md-6">
+                  <h4 class="h5">Digital Marketing</h4>
+                  <p class=" text-muted">
+                 Claim this popular course.it will help you to undestanding digital markteing stretegies.
+                  </p>
+                  <p class="h5 my-3 text-primary"><span class="text-primary">Price :</span>$45</p>
+                  <button class="btn btn-primary">Add to Cart</button>
+                </div>
+              </div>
+          </div>
+          <div class="col-lg-6 col-md-12 col-sm-12 my-1">     
+            <div class=" d-flex border border-muted rounded row mx-1">
+                <img
+                  src="./images/course/course-6.png"
+                  alt=""
+                  class="img-fluid col-sm-12 col-lg-5 col-md-5 d-flex  p-0 m-0 "
+                />
+                <div class="m-2 col-sm-12 col-lg-6 col-md-6">
+                  <h4 class="h5">Motion Grapichs</h4>
+                  <p class=" text-muted">
+                It will make you a professional MOtion Grapics Designer
+                  <p class="h5 my-3 text-primary"><span class="text-primary">Price :</span>$45</p>
+                  <button class="btn btn-primary">Add to Cart</button>
+                </div>
+              </div>
+          </div>
+          <div class="col-lg-6 col-md-12 col-sm-12 my-1 "> 
+            <div class=" d-flex border border-muted rounded  row mx-1">
+                <img
+                  src="./images/course/course-5.png"
+                  alt=""
+                  class="img-fluid col-sm-12 col-lg-5 col-md-5 d-flex p-0 m-0"
+                />
+                <div class="m-2 col-sm-12 col-lg-6 col-md-6">
+                  <h4 class="h5">PhotoGraphy Basic Rules and regulation</h4>
+                  <p class=" text-muted">
+               This course you help you to know about photography
+                  </p>
+                  <p class="h5 my-3 text-primary"><span class="text-primary">Price :</span>$45</p>
+                  <button class="btn btn-primary">Add to Cart</button>
+                </div>
+              </div>
+          </div>
+        
         </div>
-      </div>
-      <div class="carousel-item" data-bs-interval="2000">
-        <img src="./images/cover/cover-2.jpg" id='cover-height' class="d-block w-100 " alt="...">
-        <div class="carousel-caption   d-md-block">
-          <h1>Book Our course 50% discount .</h1>
-          <p>If anyone book our course with in 2 days he can buy our every course discount will be 50%</p>
         </div>
+        </div> 
       </div>
-      <div class="carousel-item">
-        <img src="./images/cover/cover-3.jpg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-md-block">
-          <h1>Third slide label</h1>
-          <p>Some representative placeholder content for the third slide.</p>
-        </div>
-      </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
+      <button class="btn btn-primary text-center m-2">View All Courses</button>
+    </main>
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
