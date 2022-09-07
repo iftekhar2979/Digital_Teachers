@@ -14,8 +14,15 @@ body{
     font-size: 1rem;
     color: white;
 }
+.bg-clr{
+    background-color: #F4FAFD;
+}
 #cover-height{
     height: 37rem;
+}
+.col-lg-6.d-flex.flex-column.justify-content-center.align-items-center h1 {
+    position: relative;
+    left: -15px;
 }
 
 /* maedia Query  */
